@@ -7,7 +7,7 @@ import {BrowserRouter as Router,Route,
   /*Redirect*/Switch} from 'react-router-dom';
 import chart from '.component/chart.js'
 //import sidebar from './compnent/sidebar'
-
+//Redering the class below
 
 
 export class App extends Component {
@@ -17,6 +17,7 @@ export class App extends Component {
         <Router>
           <div>
             <Switch>
+//Routes are given below
             <Route path="/Login" component={Login} />
             <Route path="/chart" component = {chart}/>
             
